@@ -1,9 +1,9 @@
-= Création d'un mail HTML
+# Création d'un mail HTML
 
+:published_at: 2017-10-25
+:hp-tags: Mail, HTML, CSS
+:hp-alt-title: Création d'un mail HTML
 // :hp-image: /covers/cover.png
-// :published_at: 2019-01-31
-// :hp-tags: Mail, HTML, CSS
-// :hp-alt-title: Création d'un mail HTML
 
 La création de template de mail HTML est toujours problématique... Il faut évidemment connaitre le HTML et le CSS mais surtout savoir quelle propriétée CSS il est possible d'utiliser pour que le mail s'affiche correctement dans les différents clients.
 

@@ -8,10 +8,10 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://kosssi.github.io/blog",
-    "hubpress": "https://kosssi.github.io/blog",
-    "theme": "//kosssi.github.io/blog/themes/casper",
-    "images": "https://kosssi.github.io/blog/images"
+    "site": "https://kosssi.github.io",
+    "hubpress": "https://kosssi.github.io",
+    "theme": "//kosssi.github.io/themes/casper",
+    "images": "https://kosssi.github.io/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",

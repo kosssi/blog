@@ -1,0 +1,34 @@
+= Création d'un mail HTML
+
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: Mail, HTML, CSS
+// :hp-alt-title: Création d'un mail HTML
+
+La création de template de mail HTML est toujours problématique... Il faut évidemment connaitre le HTML et le CSS mais surtout savoir quelle propriétée CSS il est possible d'utiliser pour que le mail s'affiche correctement dans les différents clients.
+
+Il y a 3 catégories :
+
+ - client desktop
+ - client mobile
+ - webmail
+
+# Version texte
+
+C'est article (https://www.gkogan.co/blog/dont-design-emails/) montre qu'il n'est vraiment pas nécessaire d'avoir un mail en HTML. Il prouve avec des chiffres que ses mails en version texte sont plus ouvert... Dans tous les cas il faut envoyer une version texte dans un envoi "Multipart" pour être sur d'être compatible à 100%.
+
+# Version HTML
+
+J'ai découvert ce site (https://www.campaignmonitor.com/css/). Il permet de savoir si les propriétés CSS que l'on utilise sont compatible avec le maximum de client. Le site fait des mises à jour au fur et à mesure des versions.
+
+## Le code CSS
+
+La meilleurs version est de faire du style inline, c'est à dire directement dans le HTML...
+
+Sinon il faut mettre la balise `<style>` dans le `header` et pas dans le `body`.
+
+## Les couleurs
+
+Il faut utiliser la version hexadecimal `#FFFFFF` et pas de `rgb(255, 255, 255)` ou de `rgba(255, 255, 255, 0.5)`.
+
+J'aime bien l'outil de DuckDuckGo https://duckduckgo.com/?q=rgb+to+hex pour transformer du RGB en hex. Pour la version RGBA il y a http://tdekoning.github.io/rgba-converter/ qui fonctionne bien.
